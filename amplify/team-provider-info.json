@@ -11,5 +11,18 @@
       "StackId": "arn:aws:cloudformation:us-west-2:686693387580:stack/amplify-zanzisworldapp-staging-150802/cf11ea60-e2b1-11ed-9fc4-0a335b37e9b7",
       "AmplifyAppId": "d3oskeffsek0kx"
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-zanzisworldapp-prod-100536-authRole",
+      "UnauthRoleArn": "arn:aws:iam::686693387580:role/amplify-zanzisworldapp-prod-100536-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::686693387580:role/amplify-zanzisworldapp-prod-100536-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-zanzisworldapp-prod-100536-deployment",
+      "UnauthRoleName": "amplify-zanzisworldapp-prod-100536-unauthRole",
+      "StackName": "amplify-zanzisworldapp-prod-100536",
+      "StackId": "arn:aws:cloudformation:us-west-2:686693387580:stack/amplify-zanzisworldapp-prod-100536/3c2c4360-e2c2-11ed-a488-02241246b2ef",
+      "AmplifyAppId": "d3oskeffsek0kx"
+    }
   }
 }
