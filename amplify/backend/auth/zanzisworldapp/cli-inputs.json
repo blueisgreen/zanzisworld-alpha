@@ -1,0 +1,58 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "testAuthIdentityPool",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "zanzis0eb38d72",
+    "userPoolName": "zanzisworldapp",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Verification code for Zanzibar's World: {####}",
+    "emailVerificationMessage": "Thanks for joining Zanzibar's World of Nuclear Energy. We hope you love it.<br/> <br/> Verify your account using this code: {####}<br/> <br/> If you did not sign up for Zanzibar's World, please disregard this message.<br/> <br/> - Zanzibar<br/> https://www.zanzisworld.com\n",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 12,
+    "passwordPolicyCharacters": [
+      "Requires Lowercase",
+      "Requires Numbers",
+      "Requires Symbols",
+      "Requires Uppercase"
+    ],
+    "requiredAttributes": [],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "zanzis0eb38d72_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "0eb38d72",
+    "resourceName": "zanzisworldapp",
+    "authSelections": "identityPoolAndUserPool",
+    "serviceName": "Cognito",
+    "usernameAttributes": [
+      "email"
+    ],
+    "useDefault": "manual",
+    "userPoolGroups": false,
+    "userPoolGroupList": [],
+    "adminQueries": false,
+    "thirdPartyAuth": false,
+    "authProviders": [],
+    "hostedUI": true,
+    "hostedUIDomainName": "9ujiwd3kusdj",
+    "authProvidersUserPool": [
+      "Google"
+    ],
+    "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid profile\",\"AttributeMapping\":{\"username\":\"sub\"}}]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:9000\",\"https://staging.blargypants123.amplifyapp.com/\"],\"LogoutURLs\":[\"http://localhost:9000\",\"https://staging.blargypants123.amplifyapp.com/\"]}",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}
