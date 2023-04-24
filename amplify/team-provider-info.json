@@ -23,6 +23,11 @@
       "StackName": "amplify-zanzisworldapp-prod-100536",
       "StackId": "arn:aws:cloudformation:us-west-2:686693387580:stack/amplify-zanzisworldapp-prod-100536/3c2c4360-e2c2-11ed-a488-02241246b2ef",
       "AmplifyAppId": "d3oskeffsek0kx"
+    },
+    "categories": {
+      "api": {
+        "zanzisapi": {}
+      }
     }
   }
 }
