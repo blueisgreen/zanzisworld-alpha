@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-zanzisworldapp-staging-150802-authRole",
+      "UnauthRoleArn": "arn:aws:iam::686693387580:role/amplify-zanzisworldapp-staging-150802-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::686693387580:role/amplify-zanzisworldapp-staging-150802-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-zanzisworldapp-staging-150802-deployment",
+      "UnauthRoleName": "amplify-zanzisworldapp-staging-150802-unauthRole",
+      "StackName": "amplify-zanzisworldapp-staging-150802",
+      "StackId": "arn:aws:cloudformation:us-west-2:686693387580:stack/amplify-zanzisworldapp-staging-150802/cf11ea60-e2b1-11ed-9fc4-0a335b37e9b7",
+      "AmplifyAppId": "d3oskeffsek0kx"
+    }
+  }
+}
