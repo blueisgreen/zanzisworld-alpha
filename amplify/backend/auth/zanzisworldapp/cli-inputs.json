@@ -3,7 +3,7 @@
   "cognitoConfig": {
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "zanzis0eb38d72",
+    "resourceNameTruncated": "zanzisbc45cfd9",
     "userPoolName": "zanzisworldapp",
     "autoVerifiedAttributes": [
       "email"
@@ -14,7 +14,7 @@
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "Verification code for Zanzibar's World: {####}",
+    "emailVerificationSubject": "Your verification code for Zanzibar's World is {####}.",
     "emailVerificationMessage": "Thanks for joining Zanzibar's World of Nuclear Energy. We hope you love it.<br/> <br/> Verify your account using this code: {####}<br/> <br/> If you did not sign up for Zanzibar's World, please disregard this message.<br/> <br/> - Zanzibar<br/> https://www.zanzisworld.com\n",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 12,
@@ -30,9 +30,9 @@
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "zanzis0eb38d72_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "zanzisbc45cfd9_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "0eb38d72",
+    "sharedId": "bc45cfd9",
     "resourceName": "zanzisworldapp",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
@@ -46,12 +46,12 @@
     "thirdPartyAuth": false,
     "authProviders": [],
     "hostedUI": true,
-    "hostedUIDomainName": "9ujiwd3kusdj",
+    "hostedUIDomainName": "19pezn4jesdp",
     "authProvidersUserPool": [
       "Google"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid profile\",\"AttributeMapping\":{\"username\":\"sub\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:9000\",\"https://staging.blargypants123.amplifyapp.com/\"],\"LogoutURLs\":[\"http://localhost:9000\",\"https://staging.blargypants123.amplifyapp.com/\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:9000\",\"https://www.zanzisworld.com\"],\"LogoutURLs\":[\"http://localhost:9000\",\"https://www.zanzisworld.com\"]}",
     "usernameCaseSensitive": false,
     "useEnabledMfas": true
   }
